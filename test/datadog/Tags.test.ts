@@ -1,3 +1,4 @@
+import { describe, expect, it} from 'vitest';
 import { toDatadogTags } from '../../src';
 
 describe('Tags.toDatadogTags', () => {
